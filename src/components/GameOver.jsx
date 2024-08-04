@@ -2,7 +2,7 @@ import PropTypes from "prop-types"
 
 const GameOver = ({setGameOver,win,word}) => {
   return (
-      <div className="absolute left-0 w-full h-60 flex justify-center items-center flex-col bg-zinc-900 gap-4">
+      <div className="absolute -top-16 left-0 w-full h-60 flex justify-center items-center flex-col bg-zinc-900 gap-4">
           {win ? "You Guessed It!" : "Game Over!"}
           <div>The correct word was &ldquo;{word}&rdquo;</div>
           <div
